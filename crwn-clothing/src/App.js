@@ -1,6 +1,3 @@
-import React from "react";
-import "./categories.styles.scss";
-import CategoryItem from "./components/category-item/category-item.component";
 import CategoryMenu from "./components/category-menu/category-menu.component";
 
 const App = () => {
@@ -31,7 +28,6 @@ const App = () => {
       imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
     },
   ];
-
   return <CategoryMenu categories={categories} />;
 };
 
